@@ -43,6 +43,7 @@ const Cart = (props) => {
 		// add error handling ########################################################
 		setIsSubmitting(false);
 		setDidSubmit(true);
+    cartCtx.clearCart();
 	};
 
 	const cartItems = (
